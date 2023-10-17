@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generic Empty Website</title>
-    <meta name="Author" content="Kyle Shanahan">
-    <!--Here is where you would link a rel="stylesheet" CSS file to make everything look ~pretty~ -->
-    <link href="style.css" rel = "stylesheet" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fullfilling Website</title>
+	<meta name="Author" content="James Kenneth">
+	<!--Here is where you would link a rel="stylesheet" CSS file to make everything look ~pretty~ -->
+	<link href="style.css" rel = "stylesheet" type="text/css">
+	<style>
+	h1 { animation-duration: 400ms; animation-name: blink; animation-iteration-count: infinite;  animation-direction: alternate; }
+@keyframes blink { from { opacity: 1; } to { opacity: 0; } }
+div { width: 100px; height: 100px; background-color: red; position: relative; -webkit-animation-name: colorbox; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: 3; animation-name: colorbox; animation-duration: 2s; animation-iteration-count: 65536; }
+@keyframes colorbox { 0%   {background-color:orange; left:0px; top:0px;} 25%  {background-color:green; left:500px; top:0px;} 50%  {background-color:yellow; left:500px; top:250px;} 75%  {background-color:blue; left:0px; top:250px;} 100% {background-color:orange; left:0px; top:0px;} }
+#title {
+border: 0px solid yellow; width: center; -webkit-animation: title 5s infinite; }
+@-webkit-keyframes title {50% {font: 40px bold;}}
+</style>
 </head>
 <body>
-    <!--Here is where all the REAL website content would be-->
-    <h1>Welcome to My Website!</h1>
-    <p>Yes, it is true. This website is EMPTY. But that's because this was only a rudimentary test. No CSS attached, no fleshed out HTML. Simply just me and you. Thank you for viewing.
-        <br> If you would like to collaborate in web design or other fundemental coding projects. Please leave a comment on my page. Otherwise, message me on Instagram, by email, or on Facebook (If it still exists). Thanks!
-    </p>
+	<script>
+document.addEventListener('DOMContentLoaded', function() {document.getElementById('sus').onclick = sussy; document.getElementById('hv').addEventListener("mouseover", hvr, false); }, false);
+function sussy() { if(document.getElementById('sus').innerHTML == 'I see you found out about my secret!') { document.getElementById('sus').innerHTML = 'No more secrets here, sorry!'; } else { document.getElementById('sus').innerHTML = 'I see you found out about my secret!'; } }
+function hvr() { if(document.getElementById('hv').innerHTML == "It makes the decision.<br>What have you decided? James Kenneth is awaiting your response.") { document.getElementById('hv').innerHTML = "It sows the field"; } else { document.getElementById('hv').innerHTML = "It makes the decision.<br>What have you decided? James Kenneth is awaiting your response."; } }
+	</script>
+
+	<!--Here is where all the REAL website content would be-->
+	<h1>Taylor Swift Fan Page!</h1>
+	<p>Yes, it is true. i LOVE taytay. But that's because she's an amazing singer, No CSS attached Simply just me and you. Thank you for viewing.
+		<br id="title"> If you would like to collaborate in web design or other fundemental singing projects. Please leave a comment on my page. Otherwise, message me on Instagram, by email, carrier pigeon, or on Facebook (If it still exists). Thanks!
+	</p>
+	<p id="sus">Why don't you find something to do, now?</p>
+	<div></div>
+	<p id="hv">Time to make a decision!</p>
+	<p style="position: fixed; bottom: 0; width:100%; text-align: center">Okay, I lied. There is CSS attached. I know I lied, I'm sorry. I hope you'll forgive me</p>
 </body>
+</html>
 </html>
