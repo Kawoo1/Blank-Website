@@ -4,3 +4,8 @@ body
     min-height: 200vh;
     background: radial-gradient(#c299ff,#602060);
 }
+section
+{
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 1.5em;
+}
