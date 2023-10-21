@@ -9,3 +9,16 @@ section
     font-family: "Gill Sans Extrabold", sans-serif;
     font-size: 1.5em;
 }
+.Section1 
+{
+    position: relative;
+    padding: 50px;
+    bottom: 0;
+    background-color: black;
+}
+.Section2
+{
+    position: relative;
+    padding-top: 5px;
+    background-color: black;
+}
