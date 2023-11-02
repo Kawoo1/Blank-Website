@@ -12,6 +12,8 @@ section
 }
 .Section1 
 {
+    max-height: 1920px;
+    max-width: 1080px;
     position: relative;
     padding: 50px;
     bottom: 0;
