@@ -29,3 +29,27 @@ section
     padding-top: 5px;
     background-color: black;
 }
+/* Creates a stylized "box" for an outer container*/
+.outer-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #3498db, #9b59b6);
+}
+/* Creates a stylized "box" for an inner container*/
+.inner-container {
+  width: 80%;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #3498db, #9b59b6);
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+/* Fills the inner box with text */
+.inner-container h1 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
