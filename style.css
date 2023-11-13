@@ -3,7 +3,7 @@ body
 {
     min-height: 200vh;
     min-width: 200px;
-    background: radial-gradient(#c299ff,#602060);
+    background-color: #000000;
 }
 section
 {
