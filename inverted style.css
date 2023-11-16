@@ -40,7 +40,6 @@ section {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom right, #3498db, #9b59b6);
-    filter: invert(100%); /* Invert colors for gradient background */
 }
 
 /* Creates a stylized "box" for an inner container*/
@@ -48,18 +47,22 @@ section {
     width: 80%;
     padding: 20px;
     background: linear-gradient(to bottom right, #3498db, #9b59b6);
-    border: 2px solid #000; /* Inverted border color */
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Inverted box shadow color */
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
 /* Fills the inner box with text */
 .inner-container h1 {
     font-size: 24px;
-    color: #000; /* Inverted text color */
+    color: #fff;
     text-transform: uppercase;
 }
 
+/* Apply inversion only to the outer container background */
+.inverted-container {
+    filter: invert(100%);
+}
 /* Creates a class for images*/
 .imageClass {
     display: flex;
@@ -74,5 +77,5 @@ section {
     max-height: 600px;
     width: auto;
     height: auto;
-    filter: invert(100%); /* Invert colors for images */
+    /*filter: invert(100%); ---> Invert colors for images */
 }
