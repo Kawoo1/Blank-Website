@@ -1,5 +1,5 @@
 /* Applies changes to the "body" of the HTML Document. Adding a minimum text height and a radial gradient background */
-/* "Blank Website" Stylesheet */
+/* "Blank Website" Stylesheet  titled "inverted style.css" */
 body {
     min-height: 200vh;
     min-width: 200px;
@@ -31,6 +31,18 @@ section {
     padding-top: 5px;
     background-color: white; /* Inverted background color */
 }
+
+#section3 {
+    max-height: 1920px;
+    max-width: 1080px;
+    position: relative;
+    padding: 50px;
+    bottom: 0;
+    background-color: white; /* Inverted background color */
+    height: 200px;
+    width: 300px;
+}
+
 /**************************************************************************/
 /*Inverted Container Segment that has* caused a significant number of 
 problems for the inverted page.
@@ -89,4 +101,5 @@ a {
 a:hover {
     color: rgb(0, 0, 0); /* Maintain black color on hover */
 }
+/********************************************************/
 /********************************************************/
