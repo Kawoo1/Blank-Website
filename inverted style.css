@@ -80,7 +80,7 @@ section {
     /*filter: invert(100%); ---> Invert colors for images */
 }
 /********************************************************/
-/* Maintains the white text for links */
+/* Maintains the black text for links */
 a {
     color: rgb(0, 0, 0);
     text-decoration: none; /* Remove underline */
