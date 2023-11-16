@@ -13,7 +13,7 @@ section {
     font-size: 1.5em;
 }
 
-.Section1 {
+#section1 {
     max-height: 1920px;
     max-width: 1080px;
     position: relative;
@@ -24,45 +24,45 @@ section {
     width: 300px;
 }
 
-.Section2 {
+#section2 {
     max-height: 1920px;
     max-width: 1080px;
     position: relative;
     padding-top: 5px;
     background-color: white; /* Inverted background color */
 }
+/**************************************************************************/
+/*Inverted Container Segment that has* caused a significant number of 
+problems for the inverted page.
+*/
 
 /* Creates a stylized "box" for an outer container*/
-.outer-container {
+.inverted-outer-container {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom right, #3498db, #9b59b6);
+    background: linear-gradient(to bottom right, #cb6724, #64a649);
 }
 
 /* Creates a stylized "box" for an inner container*/
-.inner-container {
+.inverted-inner-container {
     width: 80%;
     padding: 20px;
-    background: linear-gradient(to bottom right, #3498db, #9b59b6);
+    background: linear-gradient(to bottom right, #cb6724, #64a649);
     border: 2px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
 /* Fills the inner box with text */
-.inner-container h1 {
+.inverted-inner-container h1 {
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
 }
-
-/* Apply inversion only to the outer container background */
-.inverted-container {
-    filter: invert(100%);
-}
+/***************************************************************************/
 /* Creates a class for images*/
 .imageClass {
     display: flex;
