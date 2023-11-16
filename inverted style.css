@@ -1,0 +1,78 @@
+/* Applies changes to the "body" of the HTML Document. Adding a minimum text height and a radial gradient background */
+/* "Blank Website" Stylesheet */
+body {
+    min-height: 200vh;
+    min-width: 200px;
+    background-color: #fff; /* Inverted background color */
+    /* Sets the text color*/
+    color: #000; /* Inverted text color */
+}
+
+section {
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-size: 1.5em;
+}
+
+.Section1 {
+    max-height: 1920px;
+    max-width: 1080px;
+    position: relative;
+    padding: 50px;
+    bottom: 0;
+    background-color: white; /* Inverted background color */
+    height: 200px;
+    width: 300px;
+}
+
+.Section2 {
+    max-height: 1920px;
+    max-width: 1080px;
+    position: relative;
+    padding-top: 5px;
+    background-color: white; /* Inverted background color */
+}
+
+/* Creates a stylized "box" for an outer container*/
+.outer-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #3498db, #9b59b6);
+    filter: invert(100%); /* Invert colors for gradient background */
+}
+
+/* Creates a stylized "box" for an inner container*/
+.inner-container {
+    width: 80%;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #3498db, #9b59b6);
+    border: 2px solid #000; /* Inverted border color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Inverted box shadow color */
+    text-align: center;
+}
+
+/* Fills the inner box with text */
+.inner-container h1 {
+    font-size: 24px;
+    color: #000; /* Inverted text color */
+    text-transform: uppercase;
+}
+
+/* Creates a class for images*/
+.imageClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Scales HTML images with the source tag <img>*/
+.image {
+    max-width: 400px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    filter: invert(100%); /* Invert colors for images */
+}
