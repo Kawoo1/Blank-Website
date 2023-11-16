@@ -73,3 +73,14 @@ section
     width: auto;
     height: auto;
 }
+/********************************************************/
+/* Maintains the white text for links */
+a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: white; /* Maintain white color on hover */
+}
+/********************************************************/
