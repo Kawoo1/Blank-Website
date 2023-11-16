@@ -79,3 +79,14 @@ section {
     height: auto;
     /*filter: invert(100%); ---> Invert colors for images */
 }
+/********************************************************/
+/* Maintains the white text for links */
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: rgb(0, 0, 0); /* Maintain black color on hover */
+}
+/********************************************************/
