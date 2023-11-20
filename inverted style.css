@@ -101,6 +101,9 @@ problems for the inverted page.
     height: auto;
     /*filter: invert(100%); ---> Invert colors for images */
 }
+.inverted-rotated-text {
+    transform: rotate(-90deg);
+}
 /********************************************************/
 /* Maintains the black text for links */
 a 
