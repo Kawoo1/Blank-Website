@@ -13,7 +13,7 @@ section
     font-family: "Gill Sans Extrabold", sans-serif;
     font-size: 1.5em;
 }
-.Section1 
+#Section1 
 {
     max-height: 1920px;
     max-width: 1080px;
@@ -24,7 +24,7 @@ section
     height: 200px;
     width: 300 px;
 }
-.Section2
+#Section2
 {
     max-height: 1920px;
     max-width: 1080px;
@@ -73,8 +73,8 @@ section
     width: auto;
     height: auto;
 }
-.rotated-text {
-    transform: rotate(90deg);
+#rotated-text {
+   transform: rotate(90deg);
 }
 /********************************************************/
 /* Maintains the white text for links */
