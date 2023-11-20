@@ -73,9 +73,20 @@ section
     width: auto;
     height: auto;
 }
+/* Brand new rotated text little tool */
 #rotated-text {
    transform: rotate(90deg);
+   writing-mode: vertical-rl; /* vertical right-to-left writing mode */
 }
+
+#rotated-text p {
+    max-width: 80%; /* Set a maximum width for the paragraphs */
+}
+
+#rotated-text img {
+    max-height: 300px; /* Set a maximum height for the rotated image */
+}
+
 /********************************************************/
 /* Maintains the white text for links */
 a {
