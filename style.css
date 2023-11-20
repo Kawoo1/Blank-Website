@@ -15,21 +15,19 @@ section
 }
 #Section1 
 {
-    max-height: 1920px;
     max-width: 1080px;
     position: relative;
-    padding: 50px;
+    padding: 50px 20px; /* Adjust padding for proper spacing */
     bottom: 0;
     background-color: black;
-    height: 200px;
-    width: 300 px;
+    width: 100%; /* Adjust width to take full width */
 }
 #Section2
 {
-    max-height: 1920px;
+    max-height: 500px; 
     max-width: 1080px;
     position: relative;
-    padding-top: 5px;
+    padding: 50px 20px;
     background-color: black;
 }
 /* Creates a stylized "box" for an outer container*/
@@ -84,7 +82,7 @@ section
 }
 
 #rotated-text img {
-    max-height: 300px; /* Set a maximum height for the rotated image */
+    max-height: 400px; /* Set a maximum height for the rotated image */
 }
 
 /********************************************************/
