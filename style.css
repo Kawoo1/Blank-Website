@@ -73,6 +73,9 @@ section
     width: auto;
     height: auto;
 }
+.rotated-text {
+    transform: rotate(90deg);
+}
 /********************************************************/
 /* Maintains the white text for links */
 a {
