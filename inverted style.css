@@ -82,6 +82,21 @@ problems for the inverted page.
     color: #fff;
     text-transform: uppercase;
 }
+
+/* Brand new inverted rotated text little tool */
+#rotated-text {
+   transform: rotate(-90deg);
+   writing-mode: vertical-rl; /* vertical right-to-left writing mode */
+}
+
+#rotated-text p {
+    max-width: 80%; /* Set a maximum width for the paragraphs */
+}
+
+#rotated-text img {
+    max-height: 400px; /* Set a maximum height for the rotated image */
+}
+
 /***************************************************************************/
 /* Creates a class for images*/
 .imageClass 
