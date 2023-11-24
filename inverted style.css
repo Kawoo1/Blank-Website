@@ -105,6 +105,7 @@ problems for the inverted page.
 #inverted-rotated-text {
     transform: rotate(90deg);
     writing-mode: vertical-rl; /* vertical right-to-left writing mode */
+    font-family: "Ludica Console", monospace;
  }
  
  #inverted-rotated-text p {
