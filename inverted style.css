@@ -104,8 +104,9 @@ problems for the inverted page.
 /* Brand new rotated text little tool */
 #inverted-rotated-text {
     transform: rotate(90deg);
-    writing-mode: vertical-rl; /* vertical right-to-left writing mode */
+    writing-mode: vertical-lr; /* vertical right-to-left writing mode */
     font-family: "Ludica Console", monospace;
+    
  }
  
  #inverted-rotated-text p {
