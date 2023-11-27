@@ -75,6 +75,7 @@ section
 #rotated-text {
    transform: rotate(90deg);
    writing-mode: vertical-rl; /* vertical right-to-left writing mode */
+   font-family: "Times New Roman", Times, serif;
 }
 
 #rotated-text p {
