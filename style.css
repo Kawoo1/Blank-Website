@@ -8,6 +8,7 @@ body
     /* Sets the text color*/
     color: #fff;
 }
+/* Modifies and orients the primary section and sections that fall under the 1 and 2 class ID*/
 section
 {
     font-family: "Gill Sans Extrabold", sans-serif;
