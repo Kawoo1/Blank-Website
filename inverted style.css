@@ -17,6 +17,7 @@ section
     font-family: "Gill Sans Extrabold", sans-serif;
     font-size: 1.5em;
     padding-top: 1px;
+    text-align: left; /* Align text to the left */
 }
 
 #section1, #section3
@@ -39,6 +40,7 @@ section
     position: relative;
     padding-top: 5px;
     background-color: white; /* Inverted background color */
+    text-align: left; /* Align text to the left */
 }
 
 #section3 
@@ -48,6 +50,7 @@ section
     bottom: 0;
     background-color: white; /* Inverted background color */
     height: 200px;
+    text-align: left; /* Align text to the left */
 }
 
 /**************************************************************************/
@@ -106,9 +109,7 @@ problems for the inverted page.
 /* Brand new rotated text little tool */
 #inverted-rotated-text {
     transform: rotate(90deg);
-    writing-mode: vertical-lr; /* vertical right-to-left writing mode */
-    font-family: "Ludica Console", monospace;
-    
+    writing-mode: vertical-rl; /* vertical right-to-left writing mode */
  }
  
  #inverted-rotated-text p {
