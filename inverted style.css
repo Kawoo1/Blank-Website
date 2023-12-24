@@ -6,7 +6,7 @@ body
     min-height: 200vh;
     min-width: 200px;
     background-color: #fff;
-    /* Sets the text color*/
+    /* Sets the text color black*/
     color: #000000;
 }
 /* Modifies and orients the primary section and sections that fall under the 1 and 2 class ID*/
