@@ -2,7 +2,7 @@
 /* "Blank Website" Stylesheet  titled "inverted style.css" */
 body 
 {
-    text-align: center;
+    text-align: left;
     min-height: 200vh;
     min-width: 200px;
     background-color: #fff;
@@ -12,13 +12,13 @@ body
 /* Modifies and orients the primary section and sections that fall under the 1 and 2 class ID*/
 section
 {
-    text-align: center;
+    text-align: left;
     font-family: "Gill Sans Extrabold", sans-serif;
     font-size: 1.5em;
 }
 #Section1 
 {
-    text-align: center;
+    text-align: left;
     max-width: 1080px;
     position: relative;
     padding: 50px 20px; /* Adjust padding for proper spacing */
@@ -28,7 +28,7 @@ section
 }
 #Section2
 {
-    text-align: center;
+    text-align: left;
     max-height: 500px; 
     max-width: 1080px;
     position: relative;
