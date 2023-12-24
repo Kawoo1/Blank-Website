@@ -36,7 +36,7 @@ section
     background-color: white;
 }
 /* Creates a stylized "box" for an outer container*/
-.outer-container {
+.inverted-outer-container {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -45,7 +45,7 @@ section
   background: linear-gradient(to bottom right, #dd9db4, #64c48b);
 }
 /* Creates a stylized "box" for an inner container*/
-.inner-container {
+.inverted-inner-container {
   width: 80%;
   padding: 20px;
   background: linear-gradient(to bottom right, #dd9db4, #64c48b);
@@ -54,14 +54,14 @@ section
   text-align: center;
 }
 /* Fills the inner box with text */
-.inner-container h1 {
+.inverted-inner-container h1 {
   font-size: 24px;
   color: #000000;
   text-transform: uppercase;
 }
 
 /* Creates a class for images*/
-.imageClass
+.inverted-imageClass
 {
     display: flex;
     justify-content: center;
@@ -77,17 +77,17 @@ section
     height: auto;
 }
 /* Brand new rotated text little tool */
-#rotated-text {
+#inverted-rotated-text {
    transform: rotate(90deg);
    writing-mode: vertical-rl; /* vertical right-to-left writing mode */
    font-family: "Times New Roman", Times, serif;
 }
 
-#rotated-text p {
+#inverted-rotated-text p {
     max-width: 80%; /* Set a maximum width for the paragraphs */
 }
 
-#rotated-text img {
+#inverted-rotated-text img {
     max-height: 400px; /* Set a maximum height for the rotated image */
 }
 
