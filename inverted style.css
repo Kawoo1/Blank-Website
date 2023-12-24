@@ -1,134 +1,100 @@
 /* Applies changes to the "body" of the HTML Document. Adding a minimum text height and a radial gradient background */
 /* "Blank Website" Stylesheet  titled "inverted style.css" */
-body
- {
+body 
+{
     min-height: 200vh;
     min-width: 200px;
-    background-color: #fff; /* Inverted background color */
+    background-color: #fff;
     /* Sets the text color*/
-    color: #000; /* Inverted text color */
-    /************************11/16 Update*******************************/
-    margin: 0; /* Remove default margin */
-    overflow-x: hidden; /* Hide horizontal overflow */
+    color: #000000;
 }
-
-section 
+/* Modifies and orients the primary section and sections that fall under the 1 and 2 class ID*/
+section
 {
     font-family: "Gill Sans Extrabold", sans-serif;
     font-size: 1.5em;
-    padding-top: 1px;
-    text-align: left; /* Align text to the left */
 }
-
-#section1, #section3
+#Section1 
 {
-    max-width: 100%;
-    padding: 50px;
-    background-color: white; /* Inverted background color */
-    margin: 0 auto; /* Center the content */
-}
-
-#section1
-{
-    height: 200px;
-    padding-top: 1px;
-}
-
-#section2 
-{
-    max-width: 100%;
+    max-width: 1080px;
     position: relative;
-    padding-top: 5px;
-    background-color: white; /* Inverted background color */
-    text-align: left; /* Align text to the left */
-}
-
-#section3 
-{
-   /* max-height: 1920px;*/
-    /*max-width: 1080px;*/
+    padding: 50px 20px; /* Adjust padding for proper spacing */
     bottom: 0;
-    background-color: white; /* Inverted background color */
-    height: 200px;
-    text-align: left; /* Align text to the left */
+    background-color: white;
+    width: 100%; /* Adjust width to take full width */
 }
-
-/**************************************************************************/
-/*Inverted Container Segment that has* caused a significant number of 
-problems for the inverted page.
-*/
-
+#Section2
+{
+    max-height: 500px; 
+    max-width: 1080px;
+    position: relative;
+    padding: 50px 20px;
+    background-color: white;
+}
 /* Creates a stylized "box" for an outer container*/
-.inverted-outer-container
-{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to bottom right, #cb6724, #64a649);
+.outer-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #dd9db4, #64c48b);
 }
-
 /* Creates a stylized "box" for an inner container*/
-.inverted-inner-container 
-{
-    width: 80%;
-    padding: 20px;
-    background: linear-gradient(to bottom right, #cb6724, #64a649);
-    border: 2px solid #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
+.inner-container {
+  width: 80%;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #dd9db4, #64c48b);
+  border: 2px solid #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+/* Fills the inner box with text */
+.inner-container h1 {
+  font-size: 24px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
-/* Fills the inner box with text */
-.inverted-inner-container h1 
-{
-    font-size: 24px;
-    color: #fff;
-    text-transform: uppercase;
-}
-/***************************************************************************/
 /* Creates a class for images*/
-.imageClass 
+.imageClass
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100 vh;
 }
-
 /* Scales HTML images with the source tag <img>*/
-.image 
+.image
 {
-    max-width: 400px;
-    max-height: 600px;
+    max-width: 400 px;
+    max-height: 600 px;
     width: auto;
     height: auto;
-    /*filter: invert(100%); ---> Invert colors for images */
 }
 /* Brand new rotated text little tool */
-#inverted-rotated-text {
-    transform: rotate(90deg);
-    writing-mode: vertical-rl; /* vertical right-to-left writing mode */
- }
- 
- #inverted-rotated-text p {
-     max-width: 80%; /* Set a maximum width for the paragraphs */
- }
- 
- #inverted-rotated-text img {
-     max-height: 400px; /* Set a maximum height for the rotated image */
- }
+#rotated-text {
+   transform: rotate(90deg);
+   writing-mode: vertical-rl; /* vertical right-to-left writing mode */
+   font-family: "Times New Roman", Times, serif;
+}
+
+#rotated-text p {
+    max-width: 80%; /* Set a maximum width for the paragraphs */
+}
+
+#rotated-text img {
+    max-height: 400px; /* Set a maximum height for the rotated image */
+}
+
 /********************************************************/
-/* Maintains the black text for links */
-a 
-{
-    color: rgb(0, 0, 0);
+/* Maintains the white text for links */
+a {
+    color: black;
     text-decoration: none; /* Remove underline */
 }
 
-a:hover
-{
-    color: rgb(0, 0, 0); /* Maintain black color on hover */
+a:hover {
+    color: black; /* Maintain white color on hover */
 }
 /********************************************************/
