@@ -48,7 +48,6 @@ section
 .inverted-inner-container {
   width: 80%;
   padding: 20px;
-  height: 100vh;
   background: linear-gradient(to bottom right, #dd9db4, #64c48b);
   border: 2px solid #000000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
