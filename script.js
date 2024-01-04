@@ -10,11 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
     outerContainer.addEventListener('mouseover', function () {
         // Change the text content of the h1 tag inside the inner container
         innerContainer.textContent = 'Click Me';
+        innerContainer.href = 'inverted index.html';
     });
 
     // Add mouseout event listener to the outer container
     outerContainer.addEventListener('mouseout', function () {
         // Change the text content back to 'Bare Minimum' when the mouse leaves the outer container
         innerContainer.textContent = 'Bare Minimum';
+        innerContainer.href = 'inverted index.html';
     });
 });
