@@ -1,3 +1,5 @@
+//This javascript file adds the functionality of the page and focuses on creating the container elements that house the link to the inverted website page.
+
 //Change text effect when the user hovers their mouse inside the container
 document.addEventListener('DOMContentLoaded', function () {
     // Get the outer container element
